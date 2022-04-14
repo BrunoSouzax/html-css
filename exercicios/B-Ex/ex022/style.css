@@ -1,0 +1,52 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background-image: url("https://www.pexels.com/pt-br/foto/torre-eiffel-contra-ceu-nublado-3721426/");
+}
+div.quadrado {
+  display: inline-block;
+  border: 2px solid black;
+  border-radius: 10px;
+  background-color: lightgray;
+  width: 300px;
+  height: 300px;
+}
+
+div#q1 {
+  background-color: aquamarine;
+}
+
+div#q2 {
+  background-image: linear-gradient(to bottom, green, yellow);
+}
+
+div#q3 {
+  background-image: url(imagens/pattern001.png);
+}
+
+div.bloco {
+  background-image: url(imagens/wallpaper003.jpg);
+  height: 200px;
+  border-radius: 20px;
+  border: 1px solid black;
+  margin: 10px;
+}
+
+.bloco#F1 {
+  background-position: left top;
+}
+
+.bloco#F2 {
+  background-position: left center;
+}
+
+.bloco#F3 {
+  background-position: bottom center;
+}
+
+.bloco#F4 {
+  background-position: center center;
+}
