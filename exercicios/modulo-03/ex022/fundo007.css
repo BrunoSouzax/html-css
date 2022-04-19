@@ -1,0 +1,11 @@
+#container {
+    height: 500px;
+    padding: 10px;
+    background-color:green;
+}
+
+#conteudo {
+    height: 200px;
+    width: 400px;
+    background-color: yellow;
+}
