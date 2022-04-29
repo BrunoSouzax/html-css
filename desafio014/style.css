@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: lightslategray;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+caption {
+    padding: 15px;
+    color: yellow;
+    font-size: 25px;
+}
+
+table {
+    border-collapse: collapse ;
+    width: 700px;
+}
+
+tr.menu {
+    background-color: gray;
+    font-weight: bolder;
+}
+
+th,td {
+    border: 1.2px solid black;
+    padding: 15px;
+}
